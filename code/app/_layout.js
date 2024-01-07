@@ -7,6 +7,8 @@ import React, { useEffect } from 'react';
 SplashScreen.preventAutoHideAsync();
 
 const Layout = () =>{
+
+    // still have problem with loading fonts we will come back to this later
     const fetchFonts = async () =>
         await Font.loadAsync({
             'DMSans-Bold' : require('../assets/fonts/DMSans-Bold.ttf'),
